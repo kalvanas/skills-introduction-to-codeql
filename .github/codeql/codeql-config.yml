@@ -1,0 +1,6 @@
+name: "Advanced config"
+queries:
+  - uses: security-extended
+  - uses: ./.github/codeql/custom-queries
+paths-ignore:
+  - '**/test/**'
